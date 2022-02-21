@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar {
+      width: 100%;
+      background-color: #555;
+      overflow: auto;
+    }
+    .navbar a {
+      float: left;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .navbar a:hover {
+      background-color: #000;
+    }
+    .active {
+      background-color: #04aa6d;
+    }
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+    BODY {
+      background: white;
+      -webkit-font-smoothing: antialiased;
+      font-family: "Varela Round", sans-serif;
+      height: 100%;
+    }
+    canvas {
+      height: 100vh;
+      z-index: -10;
+      position: fixed;
+      top: 0px;
+    }
+    a {
+      color: #bbbbc4;
+      text-decoration: none;
+      -o-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+    a:hover {
+      color: #fc3565;
+    }
+    h1 {
+      color: #fc3565;
+      padding-bottom: 0px;
+      margin-bottom: 1%;
+    }
+    h2 {
+      color: #555560;
+      font-size: 3rem;
+      font-weight: bold;
+      margin: 0px;
+      padding: 0px;
+    }
+    .logo {
+      font-family: "Monoton", cursive;
+      color: green;
+      font-size: 8rem;
+    }
+    .top {
+      padding-bottom: 5rem;
+    }
+    .pulled {
+    }
+    .pulled ul li {
+      list-style: none;
+      margin-right: 2rem;
+      font-size: 1.8rem;
+    }
+    .pulled h1 {
+      color: green;
+      font-size: 3rem;
+    }
+    .pulled ul li span {
+      font-size: 1.2rem;
+    }
+    .footer {
+      padding-top: 5rem;
+    }
+    .footer p {
+      color: green;
+      font-size: 1.2rem;
+    }
+    .visit {
+      color: white;
+      font-size: 12px;
+      background: #32333a;
+      width: 146px;
+      padding: 6px;
+      border-radius: 10px;
+      position: fixed;
+      right: 20px;
+    }
+    span.new {
+      background-color: #fc3565;
+      font-weight: 700;
+      padding: 0.2rem;
+      margin-left: 0.4rem;
+      color: #fff;
+    }
+    /* Mobile first queries */
+    /* Larger than mobile */
+    @media (min-width: 400px) {
+    }
+    /* Larger than phablet */
+    @media (min-width: 550px) {
+    }
+    /* Larger than tablet */
+    @media (min-width: 750px) {
+    }
+    /* Larger than desktop */
+    @media (min-width: 1000px) {
+    }
+    /* Larger than Desktop HD */
+    @media (min-width: 1200px) {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  </style>
+  <body>
+    <div class="navbar">
+      <a class="active" href="index.html"> Home</a>
+      <a href="our-services.html"> Our services</a>
+      <a href="Contact.html"> Contact</a>
+      <a href="Login.html"> Login</a>
+    </div>
+    <div id="particles-js">
+      <div class="container">
+        <div class="row top">
+          <div class="twelve column">
+            <div class="logo">V</div>
+            <h1>Joseph William Victory</h1>
+            <h2>Web Developer</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="one-half column">
+            <div class="pens pulled">
+              <h1>Pens</h1>
+              <ul>
+                <li>
+                  <a rel="noopener noreferrer">Pricing Tables</a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer">Portfolio Home Page</a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer">Login Process</a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer">Responsive Blog Homepage</a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer">Portfolio Opening Page</a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer"
+                    >Blog Post Using Vertical Rhythm</a
+                  >
+                </li>
+                <li>
+                  <a rel="noopener noreferrer"
+                    >Pricing Tables: Black And Yellow</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="one-half column">
+            <div class="posts pulled">
+              <h1>Posts</h1>
+              <ul>
+                <li>
+                  <a rel="noopener noreferrer"
+                    >20 Awe-Inspiring Codepen Examples You Can Learn From
+                    <span class="new">NEW</span></a
+                  >
+                </li>
+                <li>
+                  <a rel="noopener noreferrer"
+                    >Hero Images &amp; 20 Free Places To Find Them
+                  </a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer"
+                    >18 Mobile First CSS Frameworks
+                  </a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer"
+                    >How I Grew As A JavaScript Developer
+                  </a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer"
+                    >CSS's undersung property: box-sizing
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer">
+          <p>
+            Made using the awesome
+            <a>Particles.js</a>
+            <a>Codepen V2 API</a>
+            <a>Skeleton.css</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
